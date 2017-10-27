@@ -4,7 +4,7 @@
   "description": "A simple, idiomatic, and declarative way to launch modal dialogs in ReactJS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qimingweng/react-modal-dialog"
+    "url": "https://github.com/fabricioasap/react-modal-dialog"
   },
   "main": "lib/index.js",
   "edusightMain": "src/index.js",
@@ -14,7 +14,7 @@
     "github": "./scripts/publishStaticSite.sh",
     "build": "babel src --out-dir lib --stage 0"
   },
-  "author": "Qiming Weng",
+  "author": "fabricioasap",
   "license": "MIT",
   "dependencies": {
     "active-event-stack": "^1.0.0",
@@ -27,8 +27,8 @@
     "react-center-component": "^3.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0",
-    "react-dom": "^0.14.0 || ^15.0.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
